@@ -1,1 +1,108 @@
 TEST in test branch
+    1  exit
+    2  ps -ef 
+    3  ps -ef | grep dnf
+    4  exit
+    5  oc version
+    6  podman --version
+    7  df -h
+    8  sudo growpart /dev/vda 3
+    9  sudo xfs_growfs /
+   10  df -h
+   11  lab-configure
+   12  exit
+   13  exit
+   14  ssh classroom
+   15  exit
+   16  lab-configure 
+   17  rpm -qa podman
+   18  podman --version
+   19  uname -r
+   20  exit
+   21  uname -r
+   22  LS
+   23  ls
+   24  vim token
+   25  cat token 
+   26  lab-configure 
+   27  ll /usr/local/etc/ocp4.config 
+   28  date
+   29  cat /usr/local/etc/ocp4.config 
+   30  echo RHT_OCP4_MASTER_API
+   31  . /usr/local/etc/ocp4.config 
+   32  env
+   33  pwd
+   34  ls
+   35  cd Do
+   36  cd Downloads/
+   37  pwd
+   38  PWD
+   39  echo PWD
+   40  echo $PWD
+   41  pwd
+   42  env user
+   43  USER
+   44  user
+   45  echo USER
+   46  env:USER
+   47  printenv 
+   48  printenv  |grep -i user
+   49  cls
+   50  . /usr/local/etc/ocp4.config 
+   51  cat /usr/local/etc/ocp4.config 
+   52  printenv |grep -i RHT
+   53  source /usr/local/etc/ocp4.config 
+   54  printenv |grep -i RHT
+   55  $RHT_OCP4_DEV_USER 
+   56  echo $RHT_OCP4_DEV_USER 
+   57  printenv 
+   58  clear
+   59  printenv 
+   60  clear
+   61  printenv 
+   62  clear
+   63  printenv|less
+   64  printenv|grep -i path
+   65  cat /usr/local/etc/ocp4.config 
+   66  printenv |grep /user/local/etc
+   67  printenv |grep -i /user/local/etc
+   68  printenv |grep -i /user/local
+   69  printenv |grep -i /usr/local
+   70  printenv |grep -i /usr/local/etc
+   71  printenv |grep -i /usr/local
+   72  printenv |grep -i work
+   73  echo $HOSTNAME 
+   74  hostname
+   75  printenv  |less
+   76  printenv |grep -i user
+   77  username
+   78  echo $USERNAME 
+   79  clear
+   80  export|less
+   81  export|grep -i /usr/local
+   82  clear
+   83  cd - 
+   84  clear
+   85  source /usr/local/etc/ocp4.config 
+   86  git status 
+   87  ls
+   88  git clone
+   89  clear
+   90  git clone https://github.com/vivekchamoli29/DO180-apps
+   91  ls
+   92  cd DO180-apps/
+   93  ls
+   94  git status 
+   95  git checkout -b testbranch
+   96  echo "TEST in test branch" > TEST
+   97  ls
+   98  cat TEST 
+   99  git add .
+  100  ll
+  101  git commit -m "DO180 message"
+  102  git push --set-upstream origin testbranch 
+  103  history 
+  104  git status 
+  105  ls
+  106  ll
+  107  history >> TEST 
